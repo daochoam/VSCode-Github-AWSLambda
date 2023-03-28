@@ -28,4 +28,4 @@
 ### Github Configuration
 1. Go to the project root and manually create the `main.yaml` file in the `.github/workflows/main.yaml` directory, or run the command `mkdir -p .github/workflowws/ && touch .github/workflows/main.yml` from the terminal in the project directory.
 
-2. El archivo [main.yml](.github/workflows/README.md), describe cada uno de los pasos de interaccion entre VSCode - Github - AWS-lambda.
+2. El archivo [main.yml](.github/workflows/), describe cada uno de los pasos de interaccion entre VSCode - Github - AWS-lambda.
