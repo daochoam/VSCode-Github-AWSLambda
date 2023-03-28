@@ -21,10 +21,11 @@
 
 5. In this demo project, the function `uuid` is used through the programming language `TypeScript`, for the generation of parameters or random strings, for which the development libraries `uuid`, `node` and `aws-lambda` will be installed via terminal. 
 
-(JavaScript) `npm i --save-dev uuid node aws-lambda @vercel/ncc`. 
-(TypeScript) `npm i --save-dev @types/uuid @types/node @types/aws-lambda @vercel/ncc`.
+>**JavaScript:** `npm i --save-dev uuid node aws-lambda @vercel/ncc`.
+
+>**TypeScript:** `npm i --save-dev @types/uuid @types/node @types/aws-lambda @vercel/ncc`.
 
 ### Github Configuration
 1. Go to the project root and manually create the `main.yaml` file in the `.github/workflows/main.yaml` directory, or run the command `mkdir -p .github/workflowws/ && touch .github/workflows/main.yml` from the terminal in the project directory.
 
-2. El archivo [main.yml](.github/workflows/CONFIG.md), describe cada uno de los pasos de interaccion entre VSCode - Github - AWS-lambda.
+2. El archivo [main.yml](.github/workflows/README.md), describe cada uno de los pasos de interaccion entre VSCode - Github - AWS-lambda.
